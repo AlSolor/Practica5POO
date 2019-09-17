@@ -2,11 +2,19 @@ public class Prisma {
     private double largo,ancho,altura;
     double area, volumen;
     //constructor
-    public Prisma(){}
-    //Metodo setter
-    public void setMedidas(double largo, double ancho,double altura){
+    public Prisma(double largo, double ancho,double altura) {
         this.largo=largo;
         this.ancho=ancho;
+        this.altura=altura;
+    }
+    //Metodo setter
+    public void setLargo(){
+        this.largo=largo;
+    }
+    public void setAncho(){
+        this.ancho=ancho;
+    }
+    public void setAltura(){
         this.altura=altura;
     }
     //Metodo getter
