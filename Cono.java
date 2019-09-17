@@ -31,6 +31,10 @@ public class Cono {
 	public double getH() {
 		return h;
 	}
+	//Calcular generatriz
+	public void calcGen() {
+		g = Math.sqrt(Math.pow(r,2) + Math.pow(h,2));
+	}
 	//Calcular superficie
 	public double area() {
 		return ((pi * r) * (r + g));
